@@ -4,8 +4,8 @@ import { KommoV1 } from './V1/KommoV1.node';
 export class Kommo extends VersionedNodeType {
 	constructor() {
 		const baseDescription: INodeTypeBaseDescription = {
-			displayName: 'Kommo',
-			name: 'kommo',
+			displayName: 'Kommo by CloudBird',
+			name: 'kommocrm-cloudbird',
 			icon: 'file:kommo_logo.svg',
 			group: ['output'],
 			subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
