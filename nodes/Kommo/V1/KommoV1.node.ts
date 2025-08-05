@@ -4,6 +4,7 @@ import {
 	INodeType,
 	INodeTypeBaseDescription,
 	INodeTypeDescription,
+	NodeConnectionType
 } from 'n8n-workflow';
 import * as loadOptions from './methods';
 import { router } from './resources/router';
@@ -32,8 +33,8 @@ export class KommoV1 implements INodeType {
 			defaults: {
 				name: 'Kommo API Node',
 			},
-			inputs: ['main'],
-			outputs: ['main'],
+			inputs: [NodeConnectionType.Main],
+			outputs: [NodeConnectionType.Main],
 			credentials: [
 				{
 					name: 'kommoOAuth2Api',

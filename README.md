@@ -1,4 +1,4 @@
-# n8n-nodes-kommo
+# n8n-nodes-kommo-bycloudbird
 
 This is an n8n community node. It lets you use [Kommo](https://www.kommo.com/) your n8n workflows.
 
